@@ -1,0 +1,30 @@
+{
+  "name": "Module-11-Promises",
+  "version": "1.0.0",
+  "description": "Promises learning",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Module-11-Promises/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrii-Mishchenko/Module-11-Promises.git"
+  },
+  "keywords": [],
+  "author": "ANDRII_MISHCHENKO <a.mishenko2001@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrii-Mishchenko/Module-11-Promises/issues"
+  },
+  "homepage": "https://Andrii-Mishchenko.github.io/Module-11-Promises",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
